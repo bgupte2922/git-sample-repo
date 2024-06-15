@@ -12,3 +12,66 @@ git diff <commit1 id> <commit2 id> <filename>					-> check changes made to file 
 git remote add origin <GitHub Repository URL>					-> establish connection to the remote GitHub Repository
 git push origin main											-> Push to main branch
 ----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scenario 3:
+1 person -> 2 different features
+Work on different branches
+
+
+
+
+			PrivateBranch1-----------------------------------
+			|												|
+			|												|
+			|												|
+-----------Master----------------------------------------Release-----------------------------------------------------Release---------------------------------------Master------------
+			|																					|
+			|																					|Pull and then merge
+			|																					|
+			PrivateBranch2-----------------------------------------------------------------------
