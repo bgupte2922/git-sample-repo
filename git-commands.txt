@@ -13,51 +13,24 @@ git remote add origin <GitHub Repository URL>					-> establish connection to the
 git push origin main											-> Push to main branch
 ----------------------------------------------------------------------------
 
+Scenario 1:
+First release -> Done
+Second release
+	2 feature
+	2 people
+Third release
+	1 feature
+	1 person
+	
+Scenario 2:
+2 people
+person A -> enhance the framework
+person B -> automating test cases
 
+testMethod1 -> getName()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+person A -> merge code to master
+person B -> pull from master to private branch, merge code to master
 
 Scenario 3:
 1 person -> 2 different features
