@@ -31,3 +31,20 @@ testMethod1 -> getName()
 
 person A -> merge code to master
 person B -> pull from master to private branch, merge code to master
+
+Scenario 3:
+1 person -> 2 different features
+Work on different branches
+
+
+
+
+			PrivateBranch1-----------------------------------
+			|												|
+			|												|
+			|												|
+-----------Master----------------------------------------Release-----------------------------------------------------Release---------------------------------------Master------------
+			|																					|
+			|																					|Pull and then merge
+			|																					|
+			PrivateBranch2-----------------------------------------------------------------------
